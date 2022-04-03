@@ -9,4 +9,7 @@ body *{
 
 .bg-primary{
     background-color: var(--primary-color);
+    background-image: url(../../content/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
