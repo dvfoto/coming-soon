@@ -5,6 +5,15 @@
 @import'./style/base/variables.css';
 
 /* 3rd-party */
+@font-face {
+    font-family: Gotic;
+    src: url(./content/GOTHICB0.TTF);
+}
+@font-face {
+    font-family: Goticm;
+    src: url(./content/font/Metro\ Grunge.otf);
+    }
+
 
 /* components */
 
@@ -17,30 +26,64 @@
 
 /* custom style */
 
+/* HERO */
+
+
+.hero{
+    min-height: 100vh;
+    padding-bottom: 30px;
+    background-image: url(./content/download.png);
+    background-size: cover;
+    background-position: center;      
+    background-attachment: fixed;
+}
 .hero > .row-short{
     text-align: center;
 }
 
 .hero .logo{
     margin: 40px 0 0;
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
 
 }
 
 .hero .main-title{
     font-size: 40px;
     text-transform: uppercase;
+    font-weight: bold;
+    font-family: Gotic;
 
 
 }
 
 .hero .main-description{
 
-    color: #777;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     margin: 20px 0 40px;
+    font-family: Goticm;
+    text-shadow: 
+    5px 5px 10px rgb(255, 255, 255),
+    -5px -5px 10px rgba(70, 70, 70, 0.12);
 
 }
 
 .hero .clock{
     margin-bottom: 45px;
+}
+.hero .form{
+
+    margin-bottom: 15px;
+}
+
+.footer-background{
+
+    background-image: url(./content/download.png);
+    background-size: cover;
+    background-position: center;      
+    background-attachment: fixed;
+
 }
