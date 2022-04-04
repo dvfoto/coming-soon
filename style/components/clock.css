@@ -1,0 +1,87 @@
+
+
+.hero .clock {
+    display: inline-block;
+    width: 100%;
+    color: aliceblue;    
+
+}
+
+.hero .clock > .time {
+    width: 25%;
+    float: left;
+    text-align: center;
+
+}
+
+.clock > .time > .value{
+    display: inline-block;
+    width: 100%;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.clock > .time > .title{
+    display: inline-block;
+    width: 100%;    
+    font-size: 30px;    
+    font-family: Gotic;
+
+
+} 
+
+
+
+/* jss */
+
+
+
+
+:root {
+    --smaller: .75;
+  }
+  
+
+    
+ .ul{
+ }
+ 
+  
+  li {
+    display: inline-block;
+    font-size: 0.9em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    font-family: skaicius;
+  }
+  
+  li span {
+    display: block;
+    font-size: 5.1rem;
+  }
+  
+  .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  /* @media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  } */

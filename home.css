@@ -1,28 +1,20 @@
 /* base */
 
-@import'./style/base/reset.css';
-@import'./style/base/layout.css';
-@import'./style/base/variables.css';
+@import './style/base/reset.css';
+@import './style/base/variables.css';
+@import './style/base/layout.css';
 
 /* 3rd-party */
-@font-face {
-    font-family: Gotic;
-    src: url(./content/GOTHICB0.TTF);
-}
-@font-face {
-    font-family: Goticm;
-    src: url(./content/font/Metro\ Grunge.otf);
-    }
+
 
 
 /* components */
 
-@import'./style/components/button.css';
-@import'./style/components/clock.css';
-@import'./style/components/progress-bar.css';
-@import'./style/components/form.css';
-@import'./style/components/mouse.css';
-
+@import './style/components/button.css';
+@import './style/components/clock.css';
+@import './style/components/progress-bar.css';
+@import './style/components/form.css';
+@import './style/components/mouse.css';
 
 /* custom style */
 
@@ -51,7 +43,7 @@
 }
 
 .hero .main-title{
-    font-size: 40px;
+    font-size: 60px;
     text-transform: uppercase;
     font-weight: bold;
     font-family: Gotic;
@@ -71,9 +63,11 @@
 
 }
 
-.hero .clock{
-    margin-bottom: 45px;
+.hero .clock {
+
+    margin-top: 50px;
 }
+
 .hero .form{
 
     margin-bottom: 15px;
@@ -86,4 +80,17 @@
     background-position: center;      
     background-attachment: fixed;
 
+}
+
+@font-face {
+    font-family: Gotic;
+    src: url(./content/font/Metro\ Grunge.otf);
+}
+@font-face {
+    font-family: Goticm;
+    src: url(./content/GOTHIC.TTF);
+    }
+@font-face {
+    font-family: skaicius;
+    src: url(./content/font/number-font/higher-jump.regular.ttf);
 }
