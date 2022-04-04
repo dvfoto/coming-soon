@@ -2,16 +2,8 @@
     display: inline-block;
     width: 100%;
     padding: 60px 0;
-    text-align: center;
 }
-.height{
-    
-    height: 100vh;
-}
-.logo{
 
-    height: 100px;
-}
 .container > .row{
 
     display: inline-block;
@@ -66,14 +58,15 @@
 @media (max-width: 460px) {
 
     .container{
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .container > .row,
     .container > .row-short{
         width: 100%;
         margin-left: 0;
+        padding-right: 20px ;
 
     }
 
