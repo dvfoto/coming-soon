@@ -75,13 +75,38 @@
 
 .footer-background{
 
-    background-image: url(./content/download.png);
-    background-size: cover;
-    background-position: center;      
-    background-attachment: fixed;
+   background-color: #02034e ;
 
 }
 
+.colum > *{
+
+    margin-bottom: 20px;
+    
+
+}
+
+.colum > *:last-child{
+
+    margin-bottom: 0px;
+    
+
+}
+
+.content-title{
+    text-transform: uppercase;
+    color: #030573;
+    font-size: 25px;
+    line-height: 1.1em;}
+
+.content-description{
+
+    font-size: 17px;   
+
+}
+.progress-bar{
+
+}
 @font-face {
     font-family: Gotic;
     src: url(./content/font/Metro\ Grunge.otf);
