@@ -1,13 +1,14 @@
 
 
-.hero .clock {
+.hero .ul {
     display: inline-block;
     width: 100%;
     color: aliceblue;    
+    padding: 5px 0 20px 0;
 
 }
 
-.hero .clock > .time {
+/* .hero .clock > .time {
     width: 25%;
     float: left;
     text-align: center;
@@ -29,7 +30,7 @@
     font-family: Gotic;
 
 
-} 
+}  */
 
 
 
@@ -37,50 +38,43 @@
 
 
 
-
-:root {
-    --smaller: .55;
-  }
-  
-
     
   
-  li {
+  .li {
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 15px;
     list-style-type: none;
-    padding: 1em;
+    padding: 40px;
     text-transform: uppercase;
     font-family: skaicius;
+    width: 25%;
+    float: left;
+    text-align: center;
   }
   
   li span {
     display: block;
-    font-size: 5.1rem;
+    font-size: 80px;
   }
   
-  .emoji {
-    display: none;
-    padding: 1rem;
-  }
-  
-  .emoji span {
-    font-size: 4rem;
-    padding: 0 .5rem;
-  }
   
   @media all and (max-width: 700px) {
-    h1 {
-      font-size: calc(1.5rem * var(--smaller));
-    }
     
-    li {
-      font-size: calc(1.125rem * var(--smaller));
+    .li {
+      font-size: 10px;
+      width: 33%;
+      padding: 20px;
+    }
+    .li:first-child{
+      width: 100%;     
+      font-size: 20px;
+      padding-bottom: 0;
     }
     
     li span {
-      font-size: calc(3.375rem * var(--smaller));
+      font-size: 50px;
     }
-  }
 
+
+  }
 
