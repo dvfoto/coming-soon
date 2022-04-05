@@ -1,19 +1,11 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    animation: pulse 5s infinite;
-  } */
+
   
   .progress-bar {
     display: inline-block;
     position: relative;
     width: 100%;
     margin: 20px auto; 
-    /* padding: 10px 30px; */
     border-radius: 4px;
-    /* box-sizing: border-box; */
-    /* background: #fff; */
-    /* box-shadow: 0 10px 20px rgba(0, 0, 0, .5); */
   }
   
   .Loading {

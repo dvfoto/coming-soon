@@ -53,9 +53,24 @@
     width: 100%;
 }
 
+.li {
+    font-size: 10px;
+    width: 33%;
+    padding: 20px;
+  }
+  .li:first-child{
+    width: 100%;     
+    font-size: 20px;
+    padding-bottom: 0;
+  }
+  
+  li span {
+    font-size: 50px;
+  }
+
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
 
     .container{
         padding-left: 20px;
@@ -72,3 +87,5 @@
 
     
 }
+
+ 
