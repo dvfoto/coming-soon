@@ -7,13 +7,13 @@
     padding-right: 20px;
     line-height: 20px;
     font-weight: bold;
-    background-color: rgb(25, 28, 179);
+    background-color: var(--primary-color);
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
     text-shadow: 20px gray;
-    border-radius: 5px;
-    border: 2px rgb(237, 7, 7);
+    border-radius: 3px;
+    border: 20px rgb(0, 0, 0);
     box-shadow: 
     5px 5px 10px rgb(17, 8, 97),
     -5px -5px 10px rgba(70, 70, 70, 0.12);  
@@ -22,9 +22,9 @@
 .btn:hover{
 
     
-    border-radius: 25px;
+    border-radius: 3px;
     box-shadow: 
-    5px 5px 10px rgb(25, 28, 179),
+    5px 5px 10px rgb(229, 42, 229),
     -10px -10px 20px rgba(70, 70, 70, 0.12); 
     
 

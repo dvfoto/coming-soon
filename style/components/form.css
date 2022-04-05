@@ -1,0 +1,32 @@
+
+
+
+.form > * {
+
+    margin-bottom: 20px;
+
+}
+.form > label{
+    display: none;
+}
+
+.form > *:last-child {
+    margin-top: 0px;
+}
+.form > textarea {
+    width: 100%;
+}
+
+.form > input{
+    width: calc(50% - 10px);
+
+}
+.form > input:last-of-type{
+    float: right;
+    
+}
+
+.form > .input{
+
+    
+}
