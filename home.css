@@ -69,8 +69,22 @@
 }
 
 .hero .form{
+    width: 90%;
+    margin: 0 5% 15px;
+    color: aliceblue;
 
-    margin-bottom: 15px;
+}
+
+.hero .form > .input{
+
+    color: aliceblue;
+    border-color: aliceblue;
+    
+}
+.hero .form > .input::placeholder{
+
+    color: aliceblue;
+    
 }
 
 .footer-background{
@@ -109,6 +123,15 @@
 color: var(--secondary-color);
 text-decoration: none;
 
+}
+
+@media(min-width: 900px){
+main .form > input.input{
+    width: calc(50% - 10px);
+
+}
+.form > input.input:last-of-type{
+    float: right;}
 }
 
 @font-face {

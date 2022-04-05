@@ -1,5 +1,8 @@
 
-
+.form{
+    display: inline-block;
+    width: 100%;
+}
 
 .form > * {
 
@@ -15,18 +18,30 @@
 }
 .form > textarea {
     width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 300px;
+    height: 150px;
+    height: 100px;
 }
 
-.form > input{
-    width: calc(50% - 10px);
-
-}
-.form > input:last-of-type{
-    float: right;
-    
-}
 
 .form > .input{
-
-    
+    width: 100%;
+    background-color: transparent;
+    padding: 0.5em;
+    font-size: 17px;
+    border:none;
+    border-bottom: 2px solid rgb(68, 68, 68);
+    line-height: 1.5em;
 }
+
+.form *:focus {
+    /* outline: 1px solid var(--secondary-color); */
+    /* border-radius: 3px;
+    border: 20px rgb(0, 0, 0); */
+    box-shadow: 
+    5px 5px 10px rgb(17, 8, 97),
+    -5px -5px 10px rgba(70, 70, 70, 0.12); 
+}
+

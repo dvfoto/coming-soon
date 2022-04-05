@@ -1,14 +1,12 @@
 .btn{
     display: inline-block;
-    width: auto;
-    height: 40px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 20px;
+    padding: 0.8em 1em;
+    line-height: 1em;
+    font-size: 15px;
     font-weight: bold;
     background-color: var(--primary-color);
     text-decoration: none;
+    cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
     text-shadow: 20px gray;
@@ -22,7 +20,6 @@
 .btn:hover{
 
     
-    border-radius: 3px;
     box-shadow: 
     5px 5px 10px rgb(229, 42, 229),
     -10px -10px 20px rgba(70, 70, 70, 0.12); 
