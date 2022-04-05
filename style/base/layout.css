@@ -53,8 +53,11 @@
     width: 100%;
 }
 
+.hero .ul {  
+    margin: 5px 0 0 0;
+}
 .li {
-    font-size: 10px;
+    font-size: 5px;
     width: 33%;
     padding: 20px;
   }
@@ -64,7 +67,7 @@
     padding-bottom: 0;
   }
   
-  li span {
+  .li .span {
     font-size: 50px;
   }
 
