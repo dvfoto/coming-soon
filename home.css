@@ -58,7 +58,7 @@
     margin: 20px 0 40px;
     font-family: Goticm;
     text-shadow: 
-    5px 5px 10px rgb(255, 255, 255),
+    5px 5px 8px rgb(255, 255, 255),
     -5px -5px 10px rgba(70, 70, 70, 0.12);
 
 }
@@ -75,7 +75,7 @@
 
 .footer-background{
 
-   background-color: #02034e ;
+   background-color: var(--primary-color) ;
 
 }
 
@@ -102,6 +102,12 @@
 .content-description{
 
     font-size: 17px;   
+    color: rgb(159, 158, 158);
+
+}
+.content-description > .link {
+color: var(--secondary-color);
+text-decoration: none;
 
 }
 .progress-bar{
