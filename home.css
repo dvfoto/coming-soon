@@ -6,7 +6,7 @@
 
 /* 3rd-party */
 
-
+@import'./content/font/fontawesome-free-6.1.1-web/css/fontawesome.min.css';
 
 /* components */
 
@@ -90,6 +90,7 @@
 .footer-background{
 
    background-color: var(--primary-color) ;
+   text-align: center;
 
 }
 
@@ -136,6 +137,11 @@ main .form > input.input{
 }
 .form > input.input:last-of-type{
     float: right;}
+
+    .row .ikonos{
+
+        font-family: ikonos;
+    }
 }
 
 @font-face {
@@ -146,7 +152,8 @@ main .form > input.input{
     font-family: Goticm;
     src: url(./content/GOTHIC.TTF);
     }
-@font-face {
+/* @font-face {
     font-family: skaicius;
     src: url(./content/font/number-font/higher-jump.regular.ttf);
-}
+} */
+

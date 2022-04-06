@@ -26,7 +26,7 @@
     height: 100%;
     border-radius: 4px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .2);
-    animation: load1 5s infinite;
+    animation: load1 5s infinite ;
   }
   
   @keyframes load1 {
@@ -37,6 +37,7 @@
     
     
     100% {
+      
       width: 90%;
       background: #4102b5;
       
