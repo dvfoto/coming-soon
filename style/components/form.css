@@ -37,9 +37,6 @@
 }
 
 .form *:focus {
-    /* outline: 1px solid var(--secondary-color); */
-    /* border-radius: 3px;
-    border: 20px rgb(0, 0, 0); */
     box-shadow: 
     5px 5px 10px rgb(17, 8, 97),
     -5px -5px 10px rgba(70, 70, 70, 0.12); 

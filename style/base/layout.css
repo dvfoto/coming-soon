@@ -33,6 +33,15 @@
         width: 600px;
         margin: 0 calc(50% - 300px);
     }
+}
+@media(min-width: 900px){
+    main .form > input.input{
+        width: calc(50% - 10px);
+    
+    }
+    .form > input.input:last-of-type{
+        float: right;
+    }
 
 }
 

@@ -130,19 +130,6 @@ main .form > button{
     float: right;
 }
 
-@media(min-width: 900px){
-main .form > input.input{
-    width: calc(50% - 10px);
-
-}
-.form > input.input:last-of-type{
-    float: right;}
-
-    .row .ikonos{
-
-        font-family: ikonos;
-    }
-}
 
 @font-face {
     font-family: Gotic;
@@ -151,9 +138,15 @@ main .form > input.input{
 @font-face {
     font-family: Goticm;
     src: url(./content/GOTHIC.TTF);
-    }
-/* @font-face {
-    font-family: skaicius;
-    src: url(./content/font/number-font/higher-jump.regular.ttf);
-} */
+}
 
+
+.footer-background .logo{
+
+    border-top: 2px solid #fff;
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+
+
+}
