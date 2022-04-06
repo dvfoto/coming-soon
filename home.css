@@ -130,7 +130,32 @@ main .form > button{
     float: right;
 }
 
+.footer-background .logo{
 
+    border-top: 2px solid #fff;
+    max-height: 150px;
+    width: 100%;
+    object-fit: contain;
+    margin: 50px 0 50px;
+}
+footer .fotertext{
+
+    color: #fff;
+    text-decoration: none;
+}
+footer .trio > p{
+    display: inline-block;
+    padding: 0 10px;
+}
+footer .trio > p{
+
+}
+
+footer .fotertext1{
+
+    color: rgb(255, 255, 255, 50% );
+
+}
 @font-face {
     font-family: Gotic;
     src: url(./content/font/Metro\ Grunge.otf);
@@ -141,12 +166,4 @@ main .form > button{
 }
 
 
-.footer-background .logo{
 
-    border-top: 2px solid #fff;
-    height: 150px;
-    width: 100%;
-    object-fit: contain;
-
-
-}
