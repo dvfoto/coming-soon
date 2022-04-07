@@ -129,6 +129,9 @@ text-decoration: none;
 main .form > button{
     float: right;
 }
+.row-short {
+    position: relative;
+}
 
 .footer-background .logo{
 
@@ -161,6 +164,16 @@ footer .trio > p{
     position: absolute;
     top: 0;
     right: -1px;
+
+}
+
+.btn.btn-round{
+
+    border-radius: 30px;
+    line-height: 20px;
+    position: absolute;
+    top: 0px;
+
 
 }
 .trio > P:last-child::after{
