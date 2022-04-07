@@ -97,7 +97,16 @@
 
     }
 
+
+    .container .trio > P::after{
+        display: none;
+    }    
     
+    .container .trio > p{
+
+        width: 100%;
+
+    }
 }
 
  

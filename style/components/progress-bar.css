@@ -120,3 +120,44 @@
       background: #4102b5;
     }
   }
+
+  .animacija{
+
+    padding: 0.8em 1em;
+    line-height: 1em;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-shadow: 20px gray;
+    border-radius: 3px;
+    border: 20px rgb(0, 0, 0);
+    box-shadow: 
+    5px 5px 10px rgb(17, 8, 97),
+    -5px -5px 10px rgba(70, 70, 70, 0.12);  
+
+    animation: load1 5s infinite ;
+  }
+  
+  @keyframes load1 {
+    0% {
+      width: 50%;
+      background: transparent;
+    }
+    
+    
+    100% {
+      
+      width: 90%;
+      background: #4102b5;
+      
+    }
+
+
+
+
+
+  }
