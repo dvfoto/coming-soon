@@ -70,7 +70,7 @@
 
 .hero .form{
     width: 90%;
-    margin: 0 5% 15px;
+    margin: 0 5% 100px;
     color: aliceblue;
 
 }
@@ -143,6 +143,7 @@ main .form > button{
     
 }
 
+
 footer .fotertext{
 
     color: #fff;
@@ -171,10 +172,20 @@ footer .trio > p{
 
     border-radius: 30px;
     line-height: 20px;
-    position: absolute;
-    top: 0px;
+    position: fixed;
+    bottom: 10vh;
+    right: 5vh;
+    background-color:rgb(62, 7, 140, 10%);
+    ;
 
+}
+@media(max-width: 700px){
+    .btn.btn-round{
+        display: none;
 
+}}
+.btn.btn-round:hover{
+    background-color:rgb(62, 7, 140);
 }
 .trio > P:last-child::after{
     display: none;

@@ -16,6 +16,7 @@
     5px 5px 10px rgb(17, 8, 97),
     -5px -5px 10px rgba(70, 70, 70, 0.12);  
 
+
     /* animation: load1 5s infinite ;
   }
   
@@ -34,14 +35,14 @@
     /* } */
     
 }
-.btn + .btn {  /*  salia pirmo(antro) elementas 2 igauna stiliu    */
+.btn + .btn {  /*  salia pirmo(i6 kaires) elementas 2 igauna stiliu    */
     margin-right: 20px;
 }
 .btn:hover{
 
     
     box-shadow: 
-    5px 5px 10px rgb(229, 42, 229),
+    5px 5px 20px rgb(17, 8, 97),
     -10px -10px 20px rgba(70, 70, 70, 0.12); 
     
 
@@ -54,6 +55,26 @@
     padding: 10px;
     width: 60px;
     height: 60px;
+    line-height: 40px;
     border-radius: 35px;
     transition:  500ms;
+}
+
+.fa-angles-up:hover{
+
+animation: roling 1s infinite;
+}
+
+@keyframes roling {
+
+  0% {
+    line-height: 15px;
+  }
+  
+  50% {
+    line-height: 60px;
+  }
+  100% {
+    line-height: 15px;
+  }
 }

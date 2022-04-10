@@ -1,0 +1,38 @@
+.mouse{
+    display: inline-block;    
+    font-size: 2px;    /*resaizinimo elementas, visu kitu  nes em( emais) keiciasi dydis*/
+    width: 25em;
+    height: 40em;
+    text-align: center;
+    border: 2.5em solid floralwhite;
+    border-radius: 12.5em;
+
+
+}
+
+.mouse > .whell{
+    display: inline-block;
+    width: 3em;
+    height: 6em;
+    background-color: floralwhite;
+    margin-top: 7em;
+    border-radius: 1.3em;
+    animation: ratas-sukasi 2s infinite;
+}
+
+@keyframes ratas-sukasi {
+    0% {
+        margin-top: 7em;
+        background-color: floralwhite ;
+    }
+    35% {
+
+        background-color: floralwhite ;
+    }
+    100% {
+
+        margin-top: 25em;
+        background-color: transparent;
+    }
+    
+}
