@@ -2,34 +2,30 @@
   
   .progress-bar {
     display: inline-block;
-    position: relative;
     width: 100%;
     margin: 20px auto; 
     border-radius: 4px;
   }
   
   .Loading {
-    position: relative;
+    display: inline-block ;
     width: 100%;
     height: 10px;
-    background: #f1f1f1;
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    background: #d6d3d3;
     border-radius: 4px;
     overflow: hidden;
   }
-  
-  .Loading:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 0;
+
+  .loading-bar1{
+    width: 90%;
     height: 100%;
-    border-radius: 4px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
-    animation: load1 5s infinite ;
+    background-color: #4102b5;
+    animation: laudas1 5s;
+    animation-fill-mode: forwards;
   }
   
-  @keyframes load1 {
+  @keyframes laudas1 {
+
     0% {
       width: 0;
       background: #a28089;
@@ -38,12 +34,59 @@
     
     100% {
       
-      width: 90%;
+      width: var(--widht-loading-bar1);
       background: #4102b5;
       
     }
   }
   
+  .loading-bar2{
+    width: 90%;
+    height: 100%;
+    background-color: #4102b5;
+    animation: laudas2 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes laudas2 {
+
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    
+    100% {
+      
+      width: var(--widht-loading-bar2);
+      background: #4102b5;
+      
+    }
+  }
+
+  .loading-bar3{
+    width: 90%;
+    height: 100%;
+    background-color: #4102b5;
+    animation: laudas3 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes laudas3 {
+
+    0% {
+      width: 0;
+      background: #a28089;
+    }
+    
+    
+    100% {
+      
+      width: var(--widht-loading-bar3);
+      background: #4102b5;
+      
+    }
+  }
   .title{
       margin-bottom: 10px;
       float: left;
@@ -53,74 +96,7 @@
       float: right;
   }
 
-  .Loading2 {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #f1f1f1;
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
-    border-radius: 4px;
-    overflow: hidden;
-  }
   
-  .Loading2:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 100%;
-    border-radius: 4px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
-    animation: load2 5s infinite;
-  }
-  
-  @keyframes load2 {
-    0% {
-      width: 0;
-      background: #a28089;
-    }
-    
-    
-    70% {
-      width: 70%;
-      background: #4102b5;
-    }
-  }
-
-  .Loading3 {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #f1f1f1;
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
-    border-radius: 4px;
-    overflow: hidden;
-  }
-  
-  .Loading3:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 100%;
-    border-radius: 4px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
-    animation: load3 5s infinite;
-  }
-  
-  @keyframes load3 {
-    0% {
-      width: 0;
-      background: #a28089;
-    }
-    
-    
-    30% {
-      width: 30%;
-      background: #4102b5;
-    }
-  }
-
   .animacija{
 
     padding: 0.8em 1em;
@@ -134,10 +110,10 @@
     color: aliceblue;
     text-shadow: 20px gray;
     border-radius: 3px;
-    border: 20px rgb(0, 0, 0);
+    border: 20px rgb(0, 0, 0); 
     box-shadow: 
     5px 5px 10px rgb(17, 8, 97),
-    -5px -5px 10px rgba(70, 70, 70, 0.12);  
+    -5px -5px 20px rgba(70, 70, 70, 0.12);  
 
     animation: load1 5s infinite ;
   }
@@ -146,18 +122,23 @@
     0% {
       width: 50%;
       background: transparent;
+      border-radius: 3px;
+      color: black;
     }
     
     
-    100% {
+    50% {
       
       width: 90%;
       background: #4102b5;
+      border-radius: 30px;
+      color: aliceblue;
       
     }
-
-
-
-
-
+    100% {
+      width: 50%;
+      background: transparent;
+      border-radius: 3px;
+      color: black;
+    }
   }
